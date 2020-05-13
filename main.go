@@ -17,7 +17,7 @@ func initialiseDb() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Println("Successfully Open Database")
+	fmt.Println("Successfully Open Database and ready to connect")
 }
 func main() {
 	app := fiber.New()

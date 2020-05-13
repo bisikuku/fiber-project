@@ -12,7 +12,7 @@ func Getbook(c *fiber.Ctx){
 	c.Send("Get a single book")
 }
 
-func Addbook(c *fiber.Ctx){
+func Newbook(c *fiber.Ctx){
 	c.Send("Add a book")
 }
 
